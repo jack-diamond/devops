@@ -7,14 +7,26 @@ Stack:
     empty
     push
     pop
+    traverse
+    find
 
 Queue:
+    empty
     enqueue
     dequeue
     traverse
-    empty
-
+    find
+    
 LinkedList:
+    empty
     insert
     remove
     traverse
+    find
+
+Questions:
+
+- Testing traverse on linked list after remove, also tested this in test_remove
+- is file structure right?
+- only one assert in each function?
+- what are the differences between branch, condition, function, tests

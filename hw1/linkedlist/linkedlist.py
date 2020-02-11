@@ -9,6 +9,11 @@ class LinkedList:
     def __init__(self):
         self.head = None
 
+    def empty(self):
+        if self.head is None:
+            return True
+        return False
+
     def insert(self, value):
         node = Node(value)
 
@@ -25,7 +30,7 @@ class LinkedList:
     def remove(self, value):
         if value is None:
             return
-            
+
         if not self.head:
             return
 
