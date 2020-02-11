@@ -7,9 +7,9 @@ class Stack:
         return len(self.stack) == 0
     
     def push(self, value):
-        self.stack.append(value)
+        if value is not None:
+            self.stack.append(value)
     
     def pop(self):
-        if self.empty():
-            raise IndexError('pop(): empty stack')
-        return self.stack.pop()
+        if not self.empty():
+            return self.stack.pop()

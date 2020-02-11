@@ -23,6 +23,9 @@ class LinkedList:
         current.next = node
 
     def remove(self, value):
+        if value is None:
+            return
+            
         if not self.head:
             return
 
@@ -55,3 +58,9 @@ class LinkedList:
             current = current.next
         
         return result
+
+    def find(self, value):
+        l = self.traverse()
+        if value in l:
+            return True
+        return False
