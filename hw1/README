@@ -1,0 +1,20 @@
+Homework 1 - Jack Diamond - 2/11/2020
+
+This folder contains implementations of Stack, Queue, and singly LinkedList in Python3.
+
+Methods for each implementation below.
+Stack:
+    empty
+    push
+    pop
+
+Queue:
+    enqueue
+    dequeue
+    traverse
+    empty
+
+LinkedList:
+    insert
+    remove
+    traverse
