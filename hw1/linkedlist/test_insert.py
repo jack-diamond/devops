@@ -1,7 +1,7 @@
 import unittest
 from linkedlist import LinkedList
 from linkedlist import Node
-
+23
 class TestMethods(unittest.TestCase):
 
     def test1(self):

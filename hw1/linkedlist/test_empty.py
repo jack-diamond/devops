@@ -1,10 +1,10 @@
 import unittest
 from linkedlist import LinkedList
 from linkedlist import Node
-
+23
 class TestMethods(unittest.TestCase):
 
-    def test1(self):
+    def test_on_empty_list(self):
         '''
         Test on empty list.
         '''
